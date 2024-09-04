@@ -18,11 +18,11 @@
 -'uname -a' - print system information detail about kernel, useful for potential kernel vulns
 -'/proc/version' - info about the target system processes
 -'/etc/issue' - file contains info about the OS, can be eaily customized or changed
-- 'ps' - see running processes on linux system
-- -1. PID: Process ID
-- -2. TTY: Terminal type used by user
-- -3. Time: Amount of CPU time used by process
-- -4. CMD: command or executable running
+-- 'ps' - see running processes on linux system
+-- -1. PID: Process ID
+-- -2. TTY: Terminal type used by user
+-- -3. Time: Amount of CPU time used by process
+-- -4. CMD: command or executable running
 ### 'ps -a': view all running processes
 ### 'ps axjf': view process tree
 ### 'ps aux': will show processes for all users
