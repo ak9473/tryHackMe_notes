@@ -1,6 +1,6 @@
 # What Is Privilege Escalation 
-###.going from a lower permission account to a higher permission one
-###.exploitation of a vulnerability, design flaw or configuration oversight in an OS or APP to gain unathorized access to resources that are usually restricted from the users
+  ###.going from a lower permission account to a higher permission one
+  ###.exploitation of a vulnerability, design flaw or configuration oversight in an OS or APP to gain unathorized access to resources that are usually restricted from the users
 
 ##Privilege Escalation allows:
 ###1. Resetting passwords
