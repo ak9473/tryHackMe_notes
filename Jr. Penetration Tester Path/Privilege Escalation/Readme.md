@@ -10,7 +10,7 @@
 
 ## Linux Commands
 
-**Enumeration** - first step taken after gaining access, important step post-compromise phase-
+### **Enumeration** - first step taken after gaining access, important step post-compromise phase-
 
 - **hostname** - command returns hostname of the target machine
 - **uname -a** - print system information detail about kernel, useful for potential kernel vulns
