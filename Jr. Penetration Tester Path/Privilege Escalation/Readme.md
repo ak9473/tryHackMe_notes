@@ -3,26 +3,26 @@
  - ### .exploitation of a vulnerability, design flaw or configuration oversight in an OS or APP to gain unathorized access to resources that are usually restricted from the users
 
 ## Privilege Escalation allows:
-### 1. Resetting passwords
-### 2. Bypass access controls to compromise protected data
-### 3. Editing software configurations
-### 4. Enabling persistence
-### 5. Changing the privilege of existing users
-### 6. Execute any admin command
+1. Resetting passwords
+2. Bypass access controls to compromise protected data
+3. Editing software configurations
+4. Enabling persistence
+5. Changing the privilege of existing users
+6. Execute any admin command
 
 ## Enumeration - first step taken after gaining access, important step post-compromise phase
 
 <h1 align="center">Linux Commands </h1>
 
-### 'hostname' - command returns hostname of the target machine
-### 'uname -a' - print system information detail about kernel, useful for potential kernel vulns
-### '/proc/version' - info about the target system processes
-### '/etc/issue' - file contains info about the OS, can be eaily customized or changed
-### 'ps' - see running processes on linux system
-#### -1. PID: Process ID
-#### -2. TTY: Terminal type used by user
-#### -3. Time: Amount of CPU time used by process
-#### -4. CMD: command or executable running
+-'hostname' - command returns hostname of the target machine
+-'uname -a' - print system information detail about kernel, useful for potential kernel vulns
+-'/proc/version' - info about the target system processes
+-'/etc/issue' - file contains info about the OS, can be eaily customized or changed
+- 'ps' - see running processes on linux system
+- -1. PID: Process ID
+- -2. TTY: Terminal type used by user
+- -3. Time: Amount of CPU time used by process
+- -4. CMD: command or executable running
 ### 'ps -a': view all running processes
 ### 'ps axjf': view process tree
 ### 'ps aux': will show processes for all users
