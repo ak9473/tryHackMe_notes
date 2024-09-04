@@ -14,10 +14,10 @@
 
 <h1 align="center">Linux Commands </h1>
 
-1 - 'hostname' - command returns hostname of the target machine
-2 - 'uname -a' - print system information detail about kernel, useful for potential kernel vulns
-3 - '/proc/version' - info about the target system processes
-4 -  '/etc/issue' - file contains info about the OS, can be eaily customized or changed
+1- 'hostname' - command returns hostname of the target machine
+2- 'uname -a' - print system information detail about kernel, useful for potential kernel vulns
+3- '/proc/version' - info about the target system processes
+4-  '/etc/issue' - file contains info about the OS, can be eaily customized or changed
 - 'ps' - see running processes on linux system
  -1. PID: Process ID
  -2. TTY: Terminal type used by user
