@@ -23,23 +23,26 @@
 2. TTY: Terminal type used by user
 3. Time: Amount of CPU time used by process
 4. CMD: command or executable running
-### 'ps -a': view all running processes
-### 'ps axjf': view process tree
-### 'ps aux': will show processes for all users
-### -a: all users
-### -u: display the user that launced the process
-### -x: show processes that are not attached to a terminal
 
-### 'env': show environmental variables
-### 'sudo -l: list all commands the user can run using 'sudo'
-### 'ls': list files in current directory
-### 'ls -la': list all files including hidden files in current directory
-### 'id <user>': provide a general overview of the user's privilege level
-### 'cat /etc/passwd': discover users on the system
-### 'cat /etc/passwd | cut -d ":" -f 1": easily list all users and ignore other parts
-### 'history': look at earlier commands 
-### 'ifconfig': information about the network interfaces (eth0, tun0, and tun1)
-### 'ip route': see network route
+ 
+- 'ps -a': view all running processes
+- 'ps axjf': view process tree
+- 'ps aux': will show processes for all users
+- a: all users
+- u: display the user that launced the process
+- x: show processes that are not attached to a terminal
+
+
+- 'env': show environmental variables
+- 'sudo -l: list all commands the user can run using 'sudo'
+- 'ls': list files in current directory
+- 'ls -la': list all files including hidden files in current directory
+- 'id <user>': provide a general overview of the user's privilege level
+- 'cat /etc/passwd': discover users on the system
+- 'cat /etc/passwd | cut -d ":" -f 1": easily list all users and ignore other parts
+- 'history': look at earlier commands 
+- 'ifconfig': information about the network interfaces (eth0, tun0, and tun1)
+- 'ip route': see network route
 
 ### 'netstat': gather information on existing connections
 ### 'netstat -a': shows all listening ports and established connections
