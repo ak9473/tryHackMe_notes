@@ -25,8 +25,8 @@
 4. CMD: command or executable running
 
  
-- 'ps -a': view all running processes
-- 'ps axjf': view process tree
+- 'ps -a' - view all running processes
+- 'ps axjf' - view process tree
 - 'ps aux': will show processes for all users
 - a: all users
 - u: display the user that launced the process
