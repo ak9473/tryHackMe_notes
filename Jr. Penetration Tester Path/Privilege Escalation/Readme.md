@@ -14,7 +14,7 @@
 
 <h1 align="center">Linux Commands </h1>
 
--'hostname' - command returns hostname of the target machine
+- 'hostname' - command returns hostname of the target machine
 -'uname -a' - print system information detail about kernel, useful for potential kernel vulns
 -'/proc/version' - info about the target system processes
 -'/etc/issue' - file contains info about the OS, can be eaily customized or changed
